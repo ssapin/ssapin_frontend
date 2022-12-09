@@ -8,8 +8,6 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "msw:cleanup": "rm public/mockServiceWorker.js",
-    "prebuild": "yarn msw:cleanup",
     "build-storybook": "build-storybook",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
